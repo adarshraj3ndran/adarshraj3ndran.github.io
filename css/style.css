@@ -5,7 +5,7 @@ body {
 /****************   Nav Section **********************/
 nav {
   font-family: 'Poppins', sans-serif; 
-	display:flex;
+  display:flex;
   justify-content: space-between;
   background-color: violet;
   border-bottom: 4px solid indigo;
@@ -21,6 +21,7 @@ footer {
   justify-content: center;
   align-items: center;
   color:white;
+  background-color: violet;
   padding: 15px;
 }
 
@@ -223,4 +224,5 @@ textarea {
   background-color: #fff;    
   min-height: 120px;          
   resize: vertical;   
+
 }
