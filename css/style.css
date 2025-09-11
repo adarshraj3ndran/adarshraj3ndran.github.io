@@ -22,6 +22,7 @@ footer {
   align-items: center;
   color:white;
   background-color: violet;
+  border-bottom: 4px solid indigo;
   padding: 15px;
 }
 
@@ -59,7 +60,7 @@ header img {
   font-family: 'Roboto', sans-serif;
   font-size: 1.1rem;
   text-align: center;
-  color: skyblue; 
+  color: gray; 
   font-weight: 300;
   margin: 15px auto; 
 }
@@ -70,8 +71,9 @@ hr {
 }
 
 section h3 {
-  margin-top: 0;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+  padding-bottom: 5px;
   padding: 10px;
   font-family: 'Poppins', sans-serif;
   color: darkblue;  
@@ -91,35 +93,26 @@ section ul {
   display:grid;
   grid-template-columns: 1fr 2fr;
   list-style-type: square;
-  color: blueviolet;
 }
 
 section dl {
-  display: grid;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  display:grid;
   grid-template-columns: 1fr 2fr;
-  gap: 8px 20px;
-  margin: 15px 0;
-  align-items: center;
+  gap: 8px 10px;
 }
 
-section dt {
-
-}
-
-section dd {
-margin: 0;
-
-}
 section a {
   font-family: 'Roboto', sans-serif;
-  color: blueviolet; 
-  text-decoration: none; 
+  color: blueviolet;
+  text-decoration: none;
   font-weight: 500;
 }
 
 section a:hover {
-  color: #2a5298; 
-  text-decoration: underline;
+  color: #2a5298;
+  text-decoration: underline;    
 }
 
 /**************   Projects   *****************/
@@ -186,6 +179,7 @@ section a:hover {
 /**************   Contact Page   *****************/
 .next {
   font-family: 'Poppins', sans-serif;
+  padding: 10px;
 }
 
 .one-col {
@@ -224,5 +218,4 @@ textarea {
   background-color: #fff;    
   min-height: 120px;          
   resize: vertical;   
-
 }
